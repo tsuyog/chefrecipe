@@ -1,0 +1,49 @@
+$navbar-default-bg:#312312;
+$light-orange:#ff8c00;
+$navbar-default-bg:$light-orange;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+#logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-top: 9px;
+    font-weight: bold;
+}
+.main_container {
+    padding-left:30px;
+    padding-right:30px;
+}
+.body_content {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#logo:hover {
+    color: white;
+    text-transform: none;
+}
+body{
+    padding-top: 60px;
+}
+.nav_item {
+    margin-left: 25px;
+    float: right;
+    margin-top: 20px;
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: normal;
+    color: #777;
+}
